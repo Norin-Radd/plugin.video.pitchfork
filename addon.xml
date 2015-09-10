@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.pitchfork" name="Pitchfork" version="1.0.0" provider-name="Norin">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Pitchfork music videos</summary>
+    <summary lang="pt">Vídeos de música da Pitchfork </summary>
+    
+    
+    <description lang="en">Pitchfork videos and live events</description>
+    <description lang="pt">Vídeos e eventos ao vivo da Pitchfork</description>
+    
+    <disclaimer lang="en">The author is not affiliated either with Pitchfork nor the XBMC Foundation</disclaimer>
+    <disclaimer lang="pt">O autor do plugin não tem qualquer relação com a Pitchfork nem com a XBMC Foundation</disclaimer>
+    
+    <source></source>
+    <website>http://pitchfork.com/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
